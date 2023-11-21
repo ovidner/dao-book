@@ -1,6 +1,6 @@
 # Design Automation and Optimization with Python
 
-This cookiecutter creates a simple boilerplate for a Jupyter Book.
+This repository contains the source material for the e-book *Design Automation and Optimization with Python*.
 
 ## Usage
 

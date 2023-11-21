@@ -3,7 +3,22 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+parts:
+- caption: Tutorials
+  numbered: true
+  chapters:
+  - file: tutorials/setting-up-python
+- caption: Topic Guides
+  chapters:
+  - file: topic-guides/working-with-arrays
+#- caption: Reference
+#  chapters:
+#  - file:
+- caption: Explanation
+  chapters:
+  - file: explanation/package-management
+- caption: About DAO with Python
+  chapters:
+  - file: about/contributing/_index
+    sections:
+    - file: about/contributing/recording-terminal-sessions

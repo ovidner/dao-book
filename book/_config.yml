@@ -35,3 +35,15 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+
+sphinx:
+  extra_extensions:
+    - sphinxcontrib.asciinema
+    - sphinxcontrib.mermaid
+  config:
+    sphinxcontrib_asciinema_defaults:
+      theme: asciinema
+      path: /assets/asciicasts/
+      preload: 1
+      # Default to showing the end of the script as poster
+      poster: npt:99:99
